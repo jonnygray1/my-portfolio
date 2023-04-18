@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey page 1</title>
+    <link rel="stylesheet" href="./css/stylesheet.css">
+    <style>
+      body {
+        background-color: #F5B151;
+        color: #000000;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Survey page 1</h1>
+      
+      <p>Please fill out the form below to get in touch with us.</p>
+	<form action="submit-form.php" method="POST">
+		<label for="name">Name:</label>
+		<input type="text" id="name" name="name" required><br><br>
+		
+		<label for="email">Email:</label>
+		<input type="email" id="email" name="email" required><br><br>
+
+    <body>
+      <h2>Gender Form</h2>
+      <p>Please select your gender.</p>
+      <form action="submit-form.php" method="POST">
+        <label for="gender-male">Male:</label>
+        <input type="checkbox" id="gender-male" name="gender[]" value="male"><br><br>
+        
+        <label for="gender-female">Female:</label>
+        <input type="checkbox" id="gender-female" name="gender[]" value="female"><br><br>
+        
+        <label for="gender-other">Other:</label>
+        <input type="checkbox" id="gender-other" name="gender[]" value="other"><br><br>
+        
+        
+      </form>
+    </body>
+		
+		<p>Please select your country or region of origin.</p>
+	<form action="submit-form.php" method="POST">
+		<label for="country-us">United States:</label>
+		<input type="radio" id="country-us" name="country" value="us" required><br><br>
+		
+		<label for="country-ca">Canada:</label>
+		<input type="radio" id="country-ca" name="country" value="ca"><br><br>
+		
+		<label for="country-mx">Mexico:</label>
+		<input type="radio" id="country-mx" name="country" value="mx"><br><br>
+		
+		<label for="country-eu">Europe:</label>
+		<input type="radio" id="country-eu" name="country" value="eu"><br><br>
+		
+		<label for="country-sa">South America:</label>
+		<input type="radio" id="country-eu" name="country" value="sa"><br><br>
+	
+    <label for="country-eu">Asia:</label>
+		<input type="radio" id="country-as" name="country" value="as"><br><br>
+
+    <label for="country-af">Africa:</label>
+		<input type="radio" id="country-af" name="country" value="af"><br><br>
+
+    <label for="country-oth">Other:</label>
+		<input type="radio" id="country-oth" name="country" value="oth"><br><br>
+
+		
+	</form>
+    </p>
+    <p>page 1 of 2</p>
+    <button onclick="window.location.href='./survey-2.html';">
+      Next page
+    </button>
+  </body>
+</html>
+
+
+
