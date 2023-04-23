@@ -1,133 +1,297 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-S18QNBHDVZ"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+<head>
 
-  gtag('config', 'G-S18QNBHDVZ');
-</script>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Jonny Gray</title>
-    <link rel="stylesheet" href="./css/stylesheet.css" />
-    <style>
-      body {
-        background-color: #F5B151;
-        color: #000000;
-      }
-    </style>
-  </head>
+     <title>Jonny Gray - Profile HTML Page</title>
 
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+     <meta name="description" content="">
+     <meta name="keywords" content="">
+     <meta name="author" content="Tooplate">
+     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-  <body class="wrapper">
-    <header><h1>Jonny Gray</h1></header>
-    
-    <nav>
-      <a href="./resume.html"> Resume </a>
+     <link rel="stylesheet" href="css/bootstrap.min.css">
+     <link rel="stylesheet" href="css/all.min.css">
+     <link rel="stylesheet" href="css/owl.carousel.min.css">
+     <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+     <!-- MAIN CSS -->
+     <link rel="stylesheet" href="css/tooplate-ben-resume-style.css">
+<!--
+Tooplate 2120 Ben Resume
+https://www.tooplate.com/view/2120-ben-resume
+-->
+</head>
+
+<body data-spy="scroll" data-target="#navbarNav" data-offset="50">
+
+    <!-- MENU BAR -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+
+            <a class="navbar-brand" href="#">
+                Jonny Gray 
+            </a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a href="#intro" class="nav-link smoothScroll">Introduction</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link smoothScroll">About Me</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#testimonials" class="nav-link smoothScroll">Reviews</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link smoothScroll">Contact</a>
+                    </li>
+                </ul>
+
+                <div class="mt-lg-0 mt-3 mb-4 mb-lg-0">
+                    <a href="#" class="custom-btn btn" download>Download CV</a>
+                </div>
+            </div>
+
+        </div>
     </nav>
-    <main>
-      <style>
-        body {
-          background-color: #F5B151;
-          color: #000000;
-        }
-      </style>
-      <h2>About Jonny</h2>
-      <p>
-        I grew up in San Diego, California and lived their for the first 10 years of my life. After that my 
-        family moved to Brussels, Belgium and lived their for 2.5 years. After that we moved to the Chicago 
-        suburbs where I have been ever since. Went to middle school and high school in the Chicagloand
-        area. After graduating Lyons Township High School in 2019, I started at the University of Iowa. I am 
-        in the Tippie College of Business studying to get degrees in Finance and BAIS.
-      </p>
-      <p>Favorite Sports teams:</p>
-      <ol>
-        <li>Chelsea FC</li>
-        <li>LA Chargers</li>
-        <li>SD Padres</li>
-      </ol>
 
-      <p>
-        <style> p{color: black; background-color: blanchedalmond; </style>
-        Below is a table outlining where I have lived and from when to when. Also at the very bottom you
-        can find some pictures of myself. 
-      </p>
 
-      <table>
-        <style>        table{color: black; background-color: blanchedalmond
-        ;}
-        </style>
-        <thead>
-          <style> thead {font-weight: bold};</style>
-          <td>Location</td>
-          <td>Time</td>
-          <td>Favorite thing to do</td>
-          <td>Link</td>
-        </thead>
+    <!-- HERO -->
+    <section class="hero d-flex flex-column justify-content-center align-items-center" id="intro">
 
-        <style>
-          table {
-            border-collapse: collapse;
-            width: 100%;
-            border: 1px solid #ccc;
-            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
-          }
-          
-          th, td {
-            padding: 10px;
-            text-align: left;
-            border-bottom: 1px solid #ccc;
-          }
-          
-          th {
-            background-color: #f2f2f2;
-          }
-        </style>
+         <div class="container">
+            <div class="row">
 
-        <tr>
-          <td>San Diego, CA</td>
-          <td>2000-2010</td>
-          <td>Enjoy the weather at the beach</td>
-          <td> <a href="https://www.sandiego.gov/"> San Diego</a> </td>
-        </tr>
-        <tr>
-          <td>Belgium</td>
-          <td>2010-2012</td>
-          <td>Go to other nearby countries to tour</td>
-          <td> <a href="https://www.belgium.be/en"> Belgium</a></td>
-        </tr>
-        <tr>
-          <td>Western Springs, IL</td>
-          <td>2012-Present</td>
-          <td>Ride bike or walk to friends houses</td>
-          <td><a href="https://www.wsprings.com/"> Western Springs</a> </td> 
-        </tr>
-        <tr>
-          <td>Iowa City, IA</td>
-          <td>2019-2023</td>
-          <td>Iowa City Bars & Football Tailgates</td>
-          <td><a href="https://www.wsprings.com/"> Iowa City</a></td>
-        </tr>
-      </table>
-      <p>&nbsp;</p>
+                  <div class="mx-auto col-lg-5 col-md-5 col-10">
+                      <img src="images/jgray.jpeg" class="img-fluid" alt="Jonny Gray and his friends Tommy Tate (middle) and Justin Chmelovsky (right)">
+                  </div>
 
-      <img src="file:///Users/jonathangray/Documents/GitHub/jgray9_Hw6/jgray.jpeg" alt="Jonny Gray with two
-       friends outside a bar." width="400" />
-     
-       <img src="file:///Users/jonathangray/Documents/GitHub/jgray9_Hw6/jgray2.jpeg" alt="Jonny Gray with 
-       his grandparents after a tennis match." width="400" />
-       <p><a href="./survery-1.html">Take the survey</a></p>
-       <p>
-         <button onclick="window.location.href='./survery-1.html';">
-           Take the survey
-         </button>
-      <p>&nbsp;</p>
-    </main>
-    <footer>&copy; Jonny Gray, 2023</footer>
-  </body>
+                   <div class="d-flex flex-column justify-content-center align-items-center col-lg-7 col-md-7 col-12">
+                        <div class="hero-text">
+
+                            <h1 class="hero-title">👋 Jonny Gray</h1>
+
+                            <a href="#" class="email-link">
+                                jonathan22gray99@gmail.com
+                            </a>
+                          
+                        </div>
+                    </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <section class="about section-padding" id="about">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-6 col-md-6 col-12">
+                    <h3 class="mb-4">This is Jonny Gray's website</h3>
+
+                    <p>I am a current student at the <a rel="nofollow" href="https://uiowa.edu/" target="_parent">University of Iowa</a>.  
+                      studying Finance and Business Analytics and graduate May 2023. I am orginally from San Diego, California. I moved to Brussels, Belgium in 2009 and 
+                    moved back to the United States in 2012.  </p>
+
+                    <p> </p>
+
+                    <ul class="mt-4 mb-5 mb-lg-0 profile-list list-unstyled">
+                        <li><strong>Full Name :</strong> Jonathan Gray</li>
+
+                        <li><strong>Date of Birth:</strong> September 7th, 2000</li>
+
+                        <li><strong>Website :</strong> grayjonny.com</li>
+
+                        <li><strong>Email :</strong> jonathan22gray99@gmail.com</li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-5 mx-auto col-md-6 col-12">
+                    <img src="images/jgray1.jpeg" class="about-image img-fluid" alt="Ben's Resume HTML Template">
+                </div>
+
+            </div>
+            <div class="row about-third">
+            	<div class="col-lg-4 col-md-4 col-12">
+                <h3>2023 Europe Trip</h3>
+                <p>In the summer of 2023 my friends and I went to Stockhom, Sweeden (June 6th-8th) > Amsterdam, Netherlands (June 9th-10th) > Brussels, Belgium (June 11th-12th) >
+                   Paris, France (June 13th-14th) > Lison, Portugal (June 15th-17th) > Malaga, Spain (June 18th-20th) > Madrid, Spain (June 21st-23rd) > Barcelona, Spain (June 24th-26th)
+                   > Montpellier, France (June 27th-29th)> Zurich, Switerland (June 30th-July 2nd) > Munich, Germany (July 3rd-5th) > Naples, Italy (July 6th-9th) > Dubrovnik, Croatia (July 10th-12th)
+                  > Ulcinj, Montenegro (July 13th-15th) > Podorica, Montenegro (July 16th) > Vienna, Austria (July 17th-19th) > Prague, Czech Republic (July 20th-22nd) > Warsaw, Poland (July 23-26th)
+                </p>
+                </div>
+                <div class="col-lg-4 col-md-4 col-12">
+                <h3>Soccer Career</h3>
+                <p>Started in peewee/AYSO soccer in San Diego. In San Diego signed for Hot Spurs FC before moving to Belgium and playing for BSA FC. 
+                  After my time in Belgium I can back and signed for Lyons Township Soccer Club and represented my high school as well. After high school I have become
+                  a full time intermural and Sunday league player.
+                </p>
+                </div>
+                <div class="col-lg-4 col-md-4 col-12">
+                <h3>Basketball Career</h3>
+                <p>After playing in the local 6th grade league, I played pickup ball until 2018 when I joined a team in the Oak Brook Mens League. 2022 Summer Oak 
+                  Brook Mens League Champion. 
+
+                </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- TESTIMONIAL -->
+     <section class="testimonials section-padding" id="testimonials">
+          <div class="container">
+               <div class="row">
+
+                    <div class="col-12">
+                        <h3 class="mb-5 text-center">Quotes from friends</h3>
+
+                        <div class="owl-carousel owl-theme" id="testimonials-carousel">
+                            <div class="item">
+                                <div class="testimonials-thumb d-flex">
+                                    <div class="testimonials-image">
+                                        <img src="images/testimonials/chem.jpeg" class="img-fluid" alt="testimonials image">
+                                    </div>
+
+                                    <div class="testimonials-info">
+                                        <p>"One of the greatest guys I have ever met."</p>
+
+                                        <h6 class="mb-0">Justin Chmelovsky</h6>
+                                        <span>Friend</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <div class="testimonials-thumb d-flex">
+                                    <div class="testimonials-image">
+                                        <img src="images/testimonials/jcorro.jpeg" class="img-fluid" alt="testimonials image">
+                                    </div>
+
+                                    <div class="testimonials-info">
+                                        <p>"This guy saved my life."</p>
+
+                                        <h6 class="mb-0">Jack Corrough</h6>
+                                        <span>Friend</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <div class="testimonials-thumb d-flex">
+                                    <div class="testimonials-image">
+                                        <img src="images/testimonials/fern.jpeg" class="img-fluid" alt="testimonials image">
+                                    </div>
+
+                                    <div class="testimonials-info">
+                                        <p>"I love this guy but also hate this guy because he kicks my ass in everything we compete in."</p>
+
+                                        <h6 class="mb-0">Jonathan Fernadez</h6>
+                                        <span>Friend</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <div class="testimonials-thumb d-flex">
+                                    <div class="testimonials-image">
+                                        <img src="images/testimonials/grits.png" class="img-fluid" alt="testimonials image">
+                                    </div>
+
+                                    <div class="testimonials-info">
+                                        <p>"Jonny and I were on a trip to Cabo, Mexico when we met Ozzinho and Jonny looked at me and said this kid is going 
+                                          to be special. We signed him to a contract and he just debuted for Mexico."</p>
+
+                                        <h6 class="mb-0">George Gritsonis</h6>
+                                        <span>Co-Agent of Jonathan Ozziel "Ozzinho" Herrera Agent</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+               </div>
+          </div>
+     </section>
+
+
+    
+
+
+     <section class="contact section-padding pt-0" id="contact">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-6 col-md-6 col-12">
+            <form action="#" method="get" class="contact-form webform"  role="form">
+                
+                <div class="form-group d-flex flex-column-reverse">
+                    <input type="text" class="form-control" name="cf-name" id="cf-name" placeholder="Your Name">
+
+                    <label for="cf-name" class="webform-label">Full Name</label>
+                </div>
+
+                <div class="form-group d-flex flex-column-reverse">
+                    <input type="email" class="form-control" name="cf-email" id="cf-email" placeholder="Your Email">
+
+                    <label for="cf-email" class="webform-label">Your Email</label>
+                </div>
+
+                <div class="form-group d-flex flex-column-reverse">
+                    <textarea class="form-control" rows="5" name="cf-message" id="cf-message" placeholder="Your Message"></textarea>
+
+                    <label for="cf-message" class="webform-label">Message</label>
+                </div>
+
+                <button type="submit" class="form-control" id="submit-button" name="submit">Send</button>
+            </form>
+          </div>
+
+            <div class="mx-auto col-lg-4 col-md-6 col-12">
+                <h3 class="my-4 pt-4 pt-lg-0">Social Media links:</h3>
+
+                <p class="mb-1"></p>
+
+                <p>
+                    <a href="#">
+                        
+                    <i class="fas fa-arrow-right custom-icon"></i>
+                    </a>
+                </p>
+
+                <ul class="social-links mt-2">
+                    <li><a href="https://fb.com/tooplate" rel="noopener" class="fab fa-facebook"></a></li>
+                    <li><a href="https://twitter.com/jonnygray37" rel="noopener" class="fab fa-twitter"></a></li>
+                    <li><a href="https://www.instagram.com/jonny.gray/" rel="noopener" class="fab fa-instagram"></a></li>
+                    <li><a href="https://www.linkedin.com/in/jonathan-gray-1686681a7/" rel="noopener" class="fab fa-linkedin"></a></li>
+                    <li><a href="#" rel="noopener" class="fab fa-youtube"></a></li>
+                </ul>
+                
+              
+            </div>
+
+        </div>
+      </div>
+    </section>
+     <!-- SCRIPTS -->
+     <script src="js/jquery.min.js"></script>
+     <script src="js/bootstrap.min.js"></script>
+     <script src="js/smoothscroll.js"></script>
+     <script src="js/owl.carousel.min.js"></script>
+     <script src="js/custom.js"></script>
+
+</body>
 </html>
